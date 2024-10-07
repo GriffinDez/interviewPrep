@@ -25,7 +25,24 @@ for (let i = 0; i < arr.length; i++) {
 //?> ================================================================================
 
 //. Ways to loop through an array
+//= for-of
+//> returns the Value of an ele from an array
+for (const ele of arr) {
+    console.log('forOf---');
+    console.log(ele);
+}
 
+//= for-in
+//> returns the indexValue / KeyValue of an ele from an array
+for (const ele in arr) {
+    console.log('forIn---');
+    console.log(ele);
+}
+//= forEach
+arr.forEach((ele, index) => {
+    console.log('ForEach---');
+    console.log(ele);
+});
 
 //?> ================================================================================
 
