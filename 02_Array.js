@@ -61,10 +61,10 @@ console.log(arrAdd);    //[ 'zxc', '1', '2', '3', '4', 'Asd' ]
 let arrR1 = ['A', 'B', 'C', 'D']
 let arrR2 = ['A', 'B', 'C', 'D']
 let arrSplice = ['A', 'B', 'C', 'D']
-console.log(arrR1.pop());    // D
+console.log(arrR1.pop());    // D, Removes the last ele of an Array and returns it.
 console.log(arrR1);  // [ 'A', 'B', 'C' ]
 
-console.log(arrR2.shift());  // A
+console.log(arrR2.shift());  // A, Removes the 1st ele of an Array and returns it.
 console.log(arrR2); // [ 'B', 'C', 'D' ]
 
 console.log(arrSplice.splice(2));   // deletes all the ele from Index 2. returns the ele of the deleted array.
