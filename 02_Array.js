@@ -47,6 +47,29 @@ arr.forEach((ele, index) => {
 //?> ================================================================================
 
 //. Add, Remove, Insert, Replace elements in Array
+let arrAdd = ['1', '2', '3', '4']
+
+//= Add, 
+//> using push(), unshift()
+console.log(arrAdd.push('Asd'));   // 5, returns newLength
+console.log(arrAdd);    //[ '1', '2', '3', '4', 'Asd' ]
+
+console.log(arrAdd.unshift('zxc')); // 6, returns newLength
+console.log(arrAdd);    //[ 'zxc', '1', '2', '3', '4', 'Asd' ]
+
+//=> Remove, using pop(), shift()
+let arrR1 = ['A', 'B', 'C', 'D']
+let arrR2 = ['A', 'B', 'C', 'D']
+let arrSplice = ['A', 'B', 'C', 'D']
+console.log(arrR1.pop());    // D
+console.log(arrR1);  // [ 'A', 'B', 'C' ]
+
+console.log(arrR2.shift());  // A
+console.log(arrR2); // [ 'B', 'C', 'D' ]
+
+console.log(arrSplice.splice(2));   // deletes all the ele from Index 2. returns the ele of the deleted array.
+console.log(arrSplice.splice(0));   // deletes all the ele from Index 0. returns the ele of the deleted array.
+
 
 //?> ================================================================================
 
